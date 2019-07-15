@@ -28,5 +28,10 @@ namespace COMP123_S2019_Lab10_301044056
         {
             Application.Exit();
         }
+
+        private void EndForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

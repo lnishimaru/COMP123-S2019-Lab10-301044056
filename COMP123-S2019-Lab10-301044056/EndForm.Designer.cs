@@ -47,17 +47,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(782, 553);
-            this.ControlBox = false;
             this.Controls.Add(this.BackButton);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(7);
+            this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "EndForm";
             this.Opacity = 0.8D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "End Form";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.EndForm_FormClosed);
+            this.Load += new System.EventHandler(this.EndForm_Load);
             this.ResumeLayout(false);
 
         }
